@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.playerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  margin-left: 10px;
+  color: white;
+}
+
+table {
+  margin: 5px;
+  border-spacing: 0px 0px;
+  border-left: 3px solid blue;
+  border-bottom: 3px solid blue;
+  border-right: 3px solid blue;
+  margin: 50px;
+  transition: 2.65s ease;
+}
+.act{
+  transform: rotateX(360deg);
+}
+.cell{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.cell-box {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+}
+.act .white {
+  transition: 2.2s ease;
+  background-color: white;
+}
+.white {
+  background-color: white;
+  transition: 2.2s ease;
+}
+.red {
+  background-color: red;
+  transition: 0.65s ease;
+}
+.green {
+  background-color: green;
+  transition: 0.65s ease;
+}
+.reset {
+  background-color: hsl(0, 3%, 50%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  transition: 0.65s ease;
+}
+.reset:hover{
+  background-color: hsl(0, 10%, 50%);
+}
+
+
+@media screen and (max-width: 480px){
+  table{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .cell{
+    width: 45px;
+    height: 45px;
+  }
+  .cell-box {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  table{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .cell{
+    width: 40px;
+    height: 40px;
+  }
+  .cell-box {
+    width: 35px;
+    height: 35px;
+  }
+}
