@@ -18,7 +18,7 @@ const Cell = ({ play, number, index }) => {
           play(index);
         }}
       >
-        <div className={cellBox + ' ' +  color} />
+        <div className={cellBox + " " + color} />
       </div>
     </td>
   );

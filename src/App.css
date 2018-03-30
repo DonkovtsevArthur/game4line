@@ -22,6 +22,12 @@
   color: white;
 }
 
+.reds{
+  color: red;
+}
+.greens{
+  color: green;
+}
 table {
   margin: 5px;
   border-spacing: 0px 0px;
